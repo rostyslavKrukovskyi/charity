@@ -14,12 +14,13 @@
       <div class="container">
         <div class="row">
           <div class="top-header-row col-md">
-            <button
-              type="button"
-              class="create-company-btn btn btn-outline-warning"
-            >
-              Створити компанію
-            </button>
+            <p class="create-company-link-wrapper" style="transform: rotate(0)">
+              <a
+                href="#"
+                class="text-warning stretched-link create-company-link"
+                >Створити компанію</a
+              >
+            </p>
           </div>
           <div class="top-header-row col-sm">
             <div class="logo-container">
@@ -33,8 +34,14 @@
           </div>
           <div class="top-header-row col-md">
             <div class="btn-group">
-              <button class="btn">ВХІД</button>
-              <button class="btn registration-btn">РЕЄСТРАЦІЯ</button>
+              <p>
+                <a href="#" class="stretched-link btn">ВХІД</a>
+              </p>
+              <p>
+                <a href="#" class="stretched-link btn registration-link"
+                  >РЕЄСТРАЦІЯ</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -68,26 +75,33 @@
       <section
         class="become-voluntear d-flex justify-content-center align-items-center"
       >
-        <div class="become-voluntear-text ms-5 ps-5">
-          <h1>У дитинства немає інвалідності</h1>
-          <div class="yello-devider"></div>
-          <p>
-            Гідне майбутнє для людей з інвалідністю.<br />
-            Давайте допоможемо їм разом.
-          </p>
-          <button type="button" class="btn btn-warning become-voluntear-button">
-            Стати Волонтером
-          </button>
-        </div>
-        <div
-          class="become-voluntear-image-container d-flex justify-content-center align-items-center"
-        >
-          <img
-            class="become-voluntear-image"
-            src="./img/imageGirl.svg"
-            class="img-fluid"
-            alt="girl"
-          />
+        <div class="become-voluntear-wrapper">
+          <div class="become-voluntear-text ms-5 ps-5">
+            <h1>У дитинства немає інвалідності</h1>
+            <div class="yello-devider"></div>
+            <p>
+              Гідне майбутнє для людей з інвалідністю.<br />
+              Давайте допоможемо їм разом.
+            </p>
+            <p
+              class="help-link become-voluntear-button-wrapper"
+              style="transform: rotate(0)"
+            >
+              <a
+                href="#"
+                class="text-warning stretched-link stretched-help-link"
+                >Стати Волонтером</a
+              >
+            </p>
+          </div>
+          <div class="become-voluntear-image-container">
+            <img
+              class="become-voluntear-image"
+              src="./img/imageGirl.svg"
+              class="img-fluid"
+              alt="girl"
+            />
+          </div>
         </div>
       </section>
 
@@ -153,56 +167,69 @@
           <div class="yello-devider"></div>
           <div class="how-we-help-content row row-cols-2">
             <div class="how-we-help-block">
-              <img src="./img/icon.png" class="img-icon" alt="icon" />
-              <div class="how-we-help-block-header">
-                Фізична та Психологічна допомога
+              <div class="how-we-help-block-img">
+                <img src="./img/icon.png" class="img-icon" alt="icon" />
               </div>
-              <div class="how-we-help-block-content">
-                Надаємо їм комплексну фізичну, соціально-педагогічну,
-                психологічну, правову, побутову допомогу.
-              </div>
-            </div>
-
-            <div class="how-we-help-block">
-              <img src="./img/icon.png" class="img-icon" alt="icon" />
-              <div class="how-we-help-block-header">Розкриваемо таланти</div>
-              <div class="how-we-help-block-content">
-                Допомагаемо у виявленню, підтримці та популяризації талантів,
-                організація змістовного дозвілля.
+              <div>
+                <div class="how-we-help-block-header">
+                  Фізична та Психологічна допомога
+                </div>
+                <div class="how-we-help-block-content">
+                  Надаємо їм комплексну фізичну, соціально-педагогічну,
+                  психологічну, правову, побутову допомогу.
+                </div>
               </div>
             </div>
 
             <div class="how-we-help-block">
-              <img src="./img/icon.png" class="img-icon" alt="icon" />
-              <div class="how-we-help-block-header">
-                Сприяєм працевлаштуванню
+              <div class="how-we-help-block-img">
+                <img src="./img/icon.png" class="img-icon" alt="icon" />
               </div>
-              <div class="how-we-help-block-content">
-                Сприяєм працевлаштуванню молодих людей з інвалідністю, створенню
-                та обладнанню робочих місць для них, соціальному патронажу
-                безпосередньо на робочому місці.
+              <div>
+                <div class="how-we-help-block-header">Розкриваемо таланти</div>
+                <div class="how-we-help-block-content">
+                  Допомагаемо у виявленню, підтримці та популяризації талантів,
+                  організація змістовного дозвілля.
+                </div>
               </div>
             </div>
 
             <div class="how-we-help-block">
-              <img src="./img/icon.png" class="img-icon" alt="icon" />
-              <div class="how-we-help-block-header">
-                Інтеграція у суспільство
+              <div class="how-we-help-block-img">
+                <img src="./img/icon.png" class="img-icon" alt="icon" />
               </div>
-              <div class="how-we-help-block-content">
-                Приділяємо увагу ітеграції у суспільство, створенню в
-                суспільстві атмосфери поваги та толерантності до дітей з
-                особливостями розвитку та їхніх сімей.
+              <div>
+                <div class="how-we-help-block-header">
+                  Сприяєм працевлаштуванню
+                </div>
+                <div class="how-we-help-block-content">
+                  Сприяєм працевлаштуванню молодих людей з інвалідністю,
+                  створенню та обладнанню робочих місць для них, соціальному
+                  патронажу безпосередньо на робочому місці.
+                </div>
+              </div>
+            </div>
+
+            <div class="how-we-help-block">
+              <div class="how-we-help-block-img">
+                <img src="./img/icon.png" class="img-icon" alt="icon" />
+              </div>
+              <div>
+                <div class="how-we-help-block-header">
+                  Інтеграція у суспільство
+                </div>
+                <div class="how-we-help-block-content">
+                  Приділяємо увагу ітеграції у суспільство, створенню в
+                  суспільстві атмосфери поваги та толерантності до дітей з
+                  особливостями розвитку та їхніх сімей.
+                </div>
               </div>
             </div>
           </div>
           <div class="more-button-block">
-            <button
-              type="button"
-              class="btn btn-link mt-4 more-about-help-button"
-            >
+            <a href="#" class="btn btn-link mt-4 more-about-help-button">
               Детальніше
-            </button>
+            </a>
             <div class="more-button-line"></div>
           </div>
         </div>
@@ -329,16 +356,13 @@
               порушеннями розвитку у суспільстві.
             </div>
             <div class="more-button-block">
-              <button
-                type="button"
-                class="btn btn-link mt-4 more-about-help-button"
-              >
+              <a href="#" class="btn btn-link mt-4 more-about-help-button">
                 Детальніше
-              </button>
+              </a>
               <div class="more-button-line"></div>
             </div>
           </div>
-          <div class="theatre-picture pt-5 mt-4 pe-5">
+          <div class="theatre-picture">
             <img
               src="./img/image 47.png"
               class="img-fluid"
@@ -348,10 +372,146 @@
         </div>
       </section>
 
-      <section class="ms-5 ps-5">
+      <section class="ms-5 ps-5 projects-section">
         <div class="our-childs pt-5">
           <div class="how-we-help-header">Проекти</div>
           <div class="yello-devider"></div>
+        </div>
+
+        <div class="row row-cols-2">
+          <div class="col col-projects-card">
+            <div class="row g-0 bg-light position-relative projects-card">
+              <div class="col-md-6 mb-md-0 p-md-2 projects-card-photo">
+                <img
+                  src="./img/image 19.png"
+                  class="img-fluid w-100"
+                  alt="theatre-picture"
+                />
+              </div>
+              <div class="col-md-6 p-4 ps-md-0 projects-card-content">
+                <p class="projects-card-sub-title">Освіта та Наука</p>
+                <p class="projects-card-title mt-0">
+                  ЩВ: Творча майстерня "ТАК"
+                </p>
+                <p class="projects-card-text">
+                  Владу 32. У нього порушення зору, проблеми зі слухом, сколіоз,
+                  заїкання, інвалідність II групи. Влад закінчив 9 класів
+                  школи-інтернату...
+                </p>
+                <p class="projects-card-text-devider"></p>
+                <div class="projects-card-footer">
+                  <div class="gather-on-project">
+                    <p class="gather-on-project-title">
+                      Зібрано <br />2 895.50 грн
+                    </p>
+                  </div>
+                  <div class="project-status">Завершено</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-projects-card">
+            <div class="row g-0 bg-light position-relative projects-card">
+              <div class="col-md-6 mb-md-0 p-md-2 projects-card-photo">
+                <img
+                  src="./img/image 11.png"
+                  class="img-fluid w-100"
+                  alt="theatre-picture"
+                />
+              </div>
+              <div class="col-md-6 p-4 ps-md-0 projects-card-content">
+                <p class="projects-card-sub-title">Освіта та Наука</p>
+                <p class="projects-card-title mt-0">
+                  Табір активної реабілітації
+                </p>
+                <p class="projects-card-text">
+                  Кураж Базар підтримує проект «Табір активної реабілітації»,
+                  який спрямовано на допомогу 9 людям, які нещодавно отримали
+                  ускладн...
+                </p>
+                <p class="projects-card-text-devider"></p>
+                <div class="projects-card-footer">
+                  <div class="gather-on-project">
+                    <p class="gather-on-project-title">
+                      Зібрано <br />2 895.50 грн
+                    </p>
+                  </div>
+                  <div class="project-status">Завершено</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-projects-card">
+            <div class="row g-0 bg-light position-relative projects-card">
+              <div class="col-md-6 mb-md-0 p-md-2 projects-card-photo">
+                <img
+                  src="./img/image 20.png"
+                  class="img-fluid w-100"
+                  alt="theatre-picture"
+                />
+              </div>
+              <div class="col-md-6 p-4 ps-md-0 projects-card-content">
+                <p class="projects-card-sub-title">Здоров’я</p>
+                <p class="projects-card-title mt-0">
+                  Open4U та Космотабір – простір для всіх
+                </p>
+                <p class="projects-card-text">
+                  Владу 32. У нього порушення зору, проблеми зі слухом, сколіоз,
+                  заїкання, інвалідність II групи. Влад закінчив 9 класів
+                  школи-інтернату...
+                </p>
+                <p class="projects-card-text-devider"></p>
+                <div class="projects-card-footer">
+                  <div class="gather-on-project">
+                    <p class="gather-on-project-title">
+                      Зібрано <br />1 500 000.00 грн.
+                    </p>
+                  </div>
+                  <div class="project-status">Завершено</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-projects-card">
+            <div class="row g-0 bg-light position-relative projects-card">
+              <div class="col-md-6 mb-md-0 p-md-2 projects-card-photo">
+                <img
+                  src="./img/image 14.png"
+                  class="img-fluid w-100"
+                  alt="theatre-picture"
+                />
+              </div>
+              <div class="col-md-6 p-4 ps-md-0 projects-card-content">
+                <p class="projects-card-sub-title">Освіта та Наука</p>
+                <p class="projects-card-title mt-0">
+                  ЩВ: Творча майстерня "ТАК"
+                </p>
+                <p class="projects-card-text">
+                  Владу 32. У нього порушення зору, проблеми зі слухом, сколіоз,
+                  заїкання, інвалідність II групи. Влад закінчив 9 класів
+                  школи-інтернату...
+                </p>
+                <p class="projects-card-text-devider"></p>
+                <div class="projects-card-footer">
+                  <div class="gather-on-project">
+                    <p class="gather-on-project-title">
+                      Зібрано <br />2 895.50 грн
+                    </p>
+                  </div>
+                  <div class="project-status">Завершено</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-button-block">
+          <a href="#" class="btn btn-link mt-4 more-about-help-button">
+            УСІ ПРОЕКТИ
+          </a>
+          <div class="more-button-line"></div>
         </div>
       </section>
 
@@ -432,6 +592,12 @@
               </button>
             </div>
           </div>
+          <div class="more-button-block mb-5">
+            <a href="#" class="btn btn-link mt-4 more-about-help-button">
+              УСІ НОВИНИ
+            </a>
+            <div class="more-button-line"></div>
+          </div>
         </div>
       </section>
 
@@ -443,7 +609,7 @@
                 class="logo-image"
                 src="./img/logo_transparent.png"
                 class="img-fluid"
-                alt="girl"
+                alt="logo"
               />
             </div>
           </div>
@@ -475,24 +641,24 @@
             </ul>
           </div>
           <div class="footer-contacts-wrapper">
-            <div class="footer-contacts">
+            <a href="#" class="footer-contacts">
               <div class="footer-contacts-image">
                 <img src="./img/Message.png" class="img-fluid" alt="mobile" />
               </div>
-              <div>+380 99765 43210</div>
-            </div>
-            <div class="footer-contacts">
+              <div>bachutuserdcem@gmail.com</div>
+            </a>
+            <a href="#" class="footer-contacts">
               <div class="footer-contacts-image">
                 <img src="./img/Mobile.png" class="img-fluid" alt="mobile" />
               </div>
               <div>+380 99765 43210</div>
-            </div>
-            <div class="footer-contacts">
+            </a>
+            <a href="#" class="footer-contacts">
               <div class="footer-contacts-image">
                 <img src="./img/Location.png" class="img-fluid" alt="mobile" />
               </div>
-              <div>+380 99765 43210</div>
-            </div>
+              <div>г. Киев</div>
+            </a>
           </div>
         </div>
       </section>

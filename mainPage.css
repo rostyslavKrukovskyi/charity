@@ -16,7 +16,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
+
 .logo-container-text {
   margin-right: 10px;
 }
@@ -35,6 +37,7 @@
 }
 .become-voluntear-image {
   position: relative;
+  right: 15%;
   padding-right: 0px;
   width: 465px;
   height: 698px;
@@ -49,14 +52,29 @@
   width: 845px;
   height: 861px;
   background-color: #f0f3f6;
+  z-index: 1;
 }
-.become-voluntear-button {
-  color: #f0f3f6;
-  border-radius: 18px;
+.become-voluntear-button-wrapper {
+  width: 235px;
 }
+
+.become-voluntear-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
 .become-voluntear-text {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  right: 50%;
   width: 500px;
   height: 300px;
+  z-index: 2;
 }
 
 .three-photo-image {
@@ -148,6 +166,14 @@
   height: 40px;
 }
 
+.how-we-help-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.how-we-help-block-img {
+  margin-right: 20px;
+}
 .how-we-help-block-header {
   width: 428px;
   height: 32px;
@@ -174,6 +200,8 @@
 
 .more-about-help-button {
   color: #f1a501;
+  outline: none;
+  text-decoration: none;
 }
 
 .more-button-block {
@@ -188,6 +216,7 @@
 }
 
 .theatre-wrapper {
+  position: relative;
   background-color: #c4c4c4;
   width: 100%;
   height: 400px;
@@ -221,6 +250,11 @@
 }
 
 .theatre-picture {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
   height: 406;
 }
 
@@ -261,9 +295,11 @@
 }
 
 .news-and-events-card {
+  padding: 15px;
   text-align: left;
-  height: 540px;
+  height: 500px;
   width: 360px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
 }
 
 .news-and-events-name {
@@ -297,6 +333,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .footer-wrapper {
@@ -318,6 +355,9 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  outline: none;
+  text-decoration: none;
+  color: #181E4B;
 }
 
 .footer-contacts-image {
@@ -408,4 +448,98 @@
   color: white !important;
   outline: none;
   text-decoration: none;
+}
+
+.projects-card {
+  width: 550px;
+  height: 380px;
+}
+
+.projects-card-sub-title {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #181E4B;
+  opacity: 0.5;
+}
+
+.projects-card-title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #181E4B;
+}
+
+.projects-card-text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #181E4B;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.projects-card-text-devider { 
+  padding-top: 50px;
+  border-bottom: 3px solid #F1A501;
+}
+
+.create-company-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 44px;
+  border: 1px solid #F1A501;
+  border-radius: 100px
+}
+
+.create-company-link {
+  color: #F1A501;
+  outline: none;
+  text-decoration: none;
+}
+
+.registration-link {
+  color: #F1A501; 
+}
+
+.projects-section {
+ min-height: 950px;
+}
+
+.projects-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gather-on-project-title {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #181E4B;
+  opacity: 0.6;
+}
+
+.project-status {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #181E4B;
+  opacity: 0.2;
+}
+
+.col-projects-card {
+  margin-bottom: 30px;
 }
