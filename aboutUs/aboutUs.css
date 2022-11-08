@@ -1,0 +1,102 @@
+.yello-devider {
+    width: 86px;
+    border-bottom: #ffc107 solid 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.join-us-header {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+    color: #181E4B;
+}
+
+.join-us-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #181E4B;
+}
+
+.join-us-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join-us-img {
+    border-bottom-left-radius: 180px;
+}
+
+.about-us-img-wrapper {
+    width: 850px;
+    background-color: #F0F3F6;
+    border-top-right-radius: 180px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-us-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #181E4B;
+}
+
+.about-us-all-text-content {
+   width: 575px;
+   height: 500px;
+}
+
+.about-us-section {
+    position: relative;
+}
+
+.about-us-wrapper {
+    position: absolute;
+    right: 200px;
+}
+
+.five-principles-text-el {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.five-principles-text-el-header {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #181E4B;
+    margin-bottom: 7px;
+}
+
+.five-principles-text-el-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #181E4B;
+}
+
+.five-principles-text-el-picture-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.five-principles-text-el-all-text-wrapper {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    z-index: 2;
+}
