@@ -193,3 +193,33 @@
 .publications-about-us-read-link-wrapper {
     margin-bottom: 15px;
 }
+
+/* partners */
+
+.partners-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #202124;
+    margin-bottom: 20px;
+}
+
+.partners-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #202124;
+}
+
+.partners-logo-wrapper {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-bottom: 20px;
+}
