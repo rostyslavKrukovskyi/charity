@@ -142,3 +142,54 @@
 .our-team-img {
     border-radius: 8px;
 }
+
+/* publication about us */
+.more-about-help-button {
+    color: #f1a501;
+    outline: none;
+    text-decoration: none;
+}
+
+.publications-about-us {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 363px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.publications-about-us-title {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #181E4B;
+}
+
+.publications-about-us-container {
+    background-image: url("./aboutUsImages/Rectangle 3.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: 130px;
+}
+
+.publications-about-us-read-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F1A501;
+}
+
+.publications-about-us-read-link-wrapper {
+    margin-bottom: 15px;
+}
