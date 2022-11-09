@@ -223,3 +223,40 @@
     justify-content: center;
     margin-bottom: 20px;
 }
+
+
+/* help-togather */
+
+.help-togather-container {
+    width: 100%;
+    background-color: #F0F3F6;
+}
+
+.stretched-help-link {
+    color: white !important;
+    outline: none;
+    text-decoration: none;
+}
+
+.help-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1A501;
+    border-radius: 100px;
+    height: 40px;
+    vertical-align: center;
+}
+
+.become-voluntear-button-wrapper {
+    width: 235px;
+}
+
+.help-togather-col-img-wrapper {
+   display: flex;
+   align-items: flex-end;
+   margin-right: 20px;
+}
+/* .help-togather-col {
+    text-align: center;
+} */
